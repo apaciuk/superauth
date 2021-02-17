@@ -92,6 +92,8 @@ GEM
     exception_notification (4.4.3)
       actionmailer (>= 4.0, < 7)
       activesupport (>= 4.0, < 7)
+    faker (2.16.0)
+      i18n (>= 1.6, < 2)
     faraday (1.2.0)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
@@ -267,6 +269,7 @@ DEPENDENCIES
   devise
   devise_invitable (~> 2.0.0)
   exception_notification
+  faker
   invisible_captcha
   jbuilder (~> 2.7)
   listen (~> 3.3)
